@@ -39,4 +39,5 @@ plugins:
 
 1. Check if meta tag exist (if not - add one);
 2. Validate filepath;
-3. Error handling.
+3. Error handling;
+4. Add tests.

@@ -2,13 +2,24 @@
   "name": "bumped-html",
   "version": "1.0.1",
   "description": "",
+  "homepage": "https://github.com/ok2ju/bumped-html",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ok2ju/bumped-html.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "bumped",
+    "release",
+    "release-automation",
+    "bumped-html"
+  ],
+  "author": {
+    "email": "soulSpringg@gmail.com",
+    "name": "Alexej Vakulich",
+    "url": "https://github.com/ok2ju"
+  },
+  "license": "MIT",
   "dependencies": {
     "jsdom": "^15.2.1"
   }
