@@ -33,6 +33,8 @@ plugins:
         - src/index.html
 ```
 
+**Note**: This plugin should be called on `postrelease`!
+
 ## Backlog
 
 1. Check if meta tag exist (if not - add one);
