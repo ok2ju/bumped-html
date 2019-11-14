@@ -1,6 +1,6 @@
 # bumped-html
 
-> Adds version to html files in meta tags on each bump.
+> A [bumped](https://github.com/bumped/bumped) plugin. Adds version to html files in meta tags on each bump.
 
 ```html
 <!doctype html>
@@ -37,7 +37,7 @@ plugins:
 
 ## Backlog
 
-1. Check if meta tag exist (if not - add one);
-2. Validate filepath;
+1. ~~Check if meta tag exist (if not - add one);~~
+2. ~~Validate filepath~~;
 3. Error handling;
 4. Add tests.
