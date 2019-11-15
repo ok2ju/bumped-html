@@ -12,12 +12,12 @@
 </html>
 ```
 
-**Note**: Meta tag should exist in your html file. So on each bump plugin will replace version with actual one.
+If `version` meta tag exists in your html file `bumped-html` will replace version with actual one. If not - `version` meta tag will be added in html markup.
 
 ## Install
 
 ```bash
-npm install bumped-html -g
+npm install -g bumped-html
 ```
 
 ## Configuration
@@ -33,11 +33,12 @@ plugins:
         - src/index.html
 ```
 
+Check out [bumped](https://github.com/bumped/bumped) repository for more detailed information how to setup/use bumped.
 **Note**: This plugin should be called on `postrelease`!
 
 ## Backlog
 
-1. ~~Check if meta tag exist (if not - add one);~~
+1. ~~Check if meta tag exist (if not - add one)~~;
 2. ~~Validate filepath~~;
-3. Error handling;
+3. ~~Error handling~~;
 4. Add tests.

@@ -26,7 +26,7 @@ module.exports = async (bumped, plugin, cb) => {
 
       await fs.writeFile(filePath, dom.serialize())
     } catch (error) {
-      console.error(error)
+      throw error
     }
   }
 

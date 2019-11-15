@@ -1,12 +1,15 @@
 {
   "name": "bumped-html",
   "version": "1.0.3",
-  "description": "",
+  "description": "A bumped plugin. Inject application version into html files (in meta tag).",
   "homepage": "https://github.com/ok2ju/bumped-html",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ok2ju/bumped-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ok2ju/bumped-html/issues"
   },
   "keywords": [
     "bumped",
@@ -20,6 +23,9 @@
     "url": "https://github.com/ok2ju"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
   "dependencies": {
     "jsdom": "^15.2.1"
   }
