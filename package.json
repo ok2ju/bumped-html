@@ -27,6 +27,6 @@
     "node": ">= 10"
   },
   "dependencies": {
-    "jsdom": "^15.2.1"
+    "jsdom": "^16.5.0"
   }
 }
